@@ -7,8 +7,8 @@ use serde::{Deserialize, Serialize};
 use std::path::PathBuf;
 use std::time::Duration;
 
-const SUBMIT_T2V: &str = "https://queue.fal.run/fal-ai/bytedance/seedance/v2/pro/text-to-video";
-const SUBMIT_I2V: &str = "https://queue.fal.run/fal-ai/bytedance/seedance/v2/pro/image-to-video";
+const SUBMIT_T2V: &str = "https://queue.fal.run/bytedance/seedance-2.0/text-to-video";
+const SUBMIT_I2V: &str = "https://queue.fal.run/bytedance/seedance-2.0/image-to-video";
 
 #[derive(Copy, Clone, Debug, ValueEnum)]
 enum Resolution {
